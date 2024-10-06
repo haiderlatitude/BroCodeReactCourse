@@ -1,11 +1,11 @@
-import Card from "./Card";
+import Student from "./Student";
 
 function App() {
   return (
     <>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
+    <Student name="Haider Ali" age="30" isStudent={true} />
+    <Student name="Usman Khan" age={27} isStudent={false} />
+    <Student />
     </>
   );
 }
