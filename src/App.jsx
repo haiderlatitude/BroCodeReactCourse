@@ -1,13 +1,12 @@
-import Student from "./Student";
+import UserGreeting from "./UserGreeting";
 
 function App() {
   return (
     <>
-    <Student name="Haider Ali" age="30" isStudent={true} />
-    <Student name="Usman Khan" age={27} isStudent={false} />
-    <Student />
+      <UserGreeting isLoggedIn={true} />
+      <UserGreeting />
     </>
   );
 }
 
-export default App
+export default App;
